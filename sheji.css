@@ -84,7 +84,7 @@ section{
 }
 
 #third{
-	height: 2000px;
+	height: 4700px;
 	background: 
 		linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
 		linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
@@ -118,7 +118,19 @@ section{
 
 }
 
+#job2 h1{
+	font-size: 40px;
+	font-weight: lighter;
+
+}
+
 #job2 h2{
+	font-size: 40px;
+	font-weight: lighter;
+
+}
+
+#job2 h3{
 	font-size: 40px;
 	font-weight: lighter;
 
