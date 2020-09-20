@@ -6,7 +6,7 @@ body{
 
 header{
 	font-weight: lighter;
-	background-image: url(img/Background.png)/*tpa=https://jh-leong.github.io/Dmeo/ife_1/img/Background.png*/;
+	background-image: url(img/Background.png);
 	color: white;
 	width: 100%;
 	height: 990px;
@@ -36,6 +36,7 @@ section{
 
 #second{
 	height: 1500px;
+	background-color:#D8D8D8
 }
 
 #second>div:nth-child(1){
@@ -64,11 +65,11 @@ section{
 	padding-bottom: 20px;
 }
 
-#g1,#g3{
+#g1,#g3,#g5{
 	float: left;
 }
 
-#g2,#g4{
+#g2,#g4,#g6{
 	float: right;
 }
 
@@ -83,7 +84,7 @@ section{
 }
 
 #third{
-	height: 900px;
+	height: 2000px;
 	/*图片路径不能有空格*/
 	background: 
 		linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
@@ -97,49 +98,34 @@ section{
 	font-weight: lighter;
 }
 
-#supportive{
-	width: 50%;
+#job{
+	width: 100%;
 	height: 430px;
 	float: left;
 	padding: 150px 0 0 10%;
 }
 
-#supportive h1{
+#job2{
+	width: 100%;
+	height: 430px;
+	position: relative;
+	left: 50px;
+	top: 50px;
+	padding: 50px 50px 0 50px;
+}
+
+#job h1{
 	font-size: 40px;
 	font-weight: lighter;
 
 }
 
-#supportive p{
-	font-size: 18px;
-	color: black;
+#job2 h2{
+	font-size: 40px;
+	font-weight: lighter;
+
 }
 
-#supportive button{
-	width: 50%;
-	height: 50px;
-	text-align: center;
-	margin-bottom: 10px;
-    /*border: none;*/
-    border-radius: 5px;
-	border: 1px solid black;
-}
-
-#button1{
-	background: white;
-}
-
-#button2{
-	background: rgb(0,0,0,0);
-	color: white;
-}
-
-#ipad{
-	width: 40%;
-	height: 100%;
-	float: right;
-	margin-top: 75px;
-}
 
 #ipad img{
 	width: 100%;
@@ -209,4 +195,39 @@ section{
 
 .mask:hover{
 	opacity: 1;
+}
+
+
+body {
+  background: #fff;
+}
+
+.title {
+  font-size: 5.6rem;
+  font-family: 'Lobster', cursive;
+}
+
+.wrapper {
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+  color: #eee;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+#fifth{
+width: 100%;
+	height: 2000px;
+	background-color:#D8D8D8;
 }
