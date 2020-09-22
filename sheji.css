@@ -35,7 +35,7 @@ section{
 }
 
 #second{
-	height: 1500px;
+	height: 3500px;
 	background-color:#D8D8D8
 }
 
@@ -53,14 +53,14 @@ section{
 
 #info{
 	width: 80%;
-	height: 450px;
+	height: 600px;
 	margin: 0px auto;
 	margin-top: 50px;
 }
 
 #info div{
-	width: 50%;
-	height: 120px;
+	width: 48%;
+	height: 800px;
 	text-align: left;
 	padding-bottom: 20px;
 }
@@ -84,7 +84,7 @@ section{
 }
 
 #third{
-	height: 4700px;
+	height: 5000px;
 	background: 
 		linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
 		linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
